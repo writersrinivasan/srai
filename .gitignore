@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment — contains secrets
+.env
+
+# Google OAuth tokens — generated at runtime, contain user credentials
+google_auth/token.json
+
+# Runtime data — state and logs are local
+data/
+
+# macOS
+.DS_Store
